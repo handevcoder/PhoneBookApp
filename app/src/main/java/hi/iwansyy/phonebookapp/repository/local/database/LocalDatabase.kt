@@ -9,7 +9,7 @@ import hi.iwansyy.phonebookapp.repository.local.entities.TodoEntity
 
 @Database(entities = [TodoEntity::class], version = 1, exportSchema = false)
 abstract class LocalDatabase: RoomDatabase(){
-    abstract fun dao() : TodoDao
+/*    abstract fun dao() : TodoDao
 
     companion object{
         private lateinit var localDatabase: LocalDatabase
@@ -25,5 +25,5 @@ abstract class LocalDatabase: RoomDatabase(){
             }
             return localDatabase
         }
-    }
+    }*/
 }
